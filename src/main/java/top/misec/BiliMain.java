@@ -32,6 +32,8 @@ public class BiliMain {
         logger.debug("任务启动中");
         DailyTask dailyTask = new DailyTask();
         dailyTask.doDailyTask();
+        System.out.println("1");
     }
+
 
 }
